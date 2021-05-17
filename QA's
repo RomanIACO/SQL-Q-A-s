@@ -1,0 +1,8 @@
+-- Ongoing questions and answers for SQL queires --
+
+Query the top 5 database languages used.
+
+SELECT *, count(DatabaseDesireNextYear) 
+FROM DatabaseDesireNextYear
+GROUP BY DatabaseDesireNextYear
+ORDER BY count(DatabaseDesireNextYear) desc limit 5;
